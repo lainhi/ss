@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav { 
+    display: flex;
+    position: relative;
+    align-items: center;
+    background: rgb(0,232,255);
+    background: linear-gradient(90deg, rgba(0,232,255,1) 0%, rgba(53,177,255,1) 48%, rgba(32,108,232,1) 100%, rgba(21,21,185,1) 100%);
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    font-size: 2rem;
+    margin: .5rem;
+    margin-bottom: 17px;
+}
+.nav-button {
+    color: white;
+    background: none;
+    border: solid white 2.5px;
+    border-radius: 15px;
+    padding: 13px 20px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+nav ul {
+    display: flex;
+    margin-left: 700px;
+}
+nav li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.59rem;
+    padding: 1rem 1rem 1.25rem 1rem;
+    color: rgb(255, 255, 255);
+}
+.sign-log {
+    margin-left: 70px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* nav hover 
+    .navbar-links li a:hover {
+        color: rgba(21,21,185,1);
+        background-color: rgba(0,212,255,1);
+    }
+*/
+
+.home {
+    height: 100vh;
+}
+.home-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-items: center;
+}
+.home-content-2 {
+    margin-top: 150px;
+    display: grid;
+    height: 200px;
+    row-gap: 2rem;
+    margin-right: 200px;
+}
+
+.home-img {
+    width: 700px;  
+    
+}
+.home-p {
+    padding: 10px;
+    font-size: 2.1rem;
+    color: rgb(67, 133, 239);
+    border: solid rgb(67, 133, 239) 2.5px;
+    border-radius: 15px;
+}
+.p-container {
+    margin-top: 60px;
+    width: 535px;
+}
+.buttons-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-gap: 1.7rem;
+}
+
+.buttons-wrap button {
+    font-size: 1.4rem;
+    padding: 20px 25px ;
+    border: none;
+    background: rgb(67, 133, 239);
+    color: white;
+}
+.nonprofits-title {
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+.nonprofit-posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 0.1px;
+}
+.nonprofit-post {
+    display: grid;
+    justify-content: center;
+    row-gap: 0.1rem;
+    width: 700px;
+    margin-bottom: 100px;
+    background-color: rgb(32, 109, 232);
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+.nonprofit-illustration {
+    justify-self: center;
+    width: 670px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.nonprofit-logo {
+    width: 35px;
+    margin: 10px;
+    border-radius: 50px;
+}
+.nonprofit-half {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+.nonprofit-info {
+    display: grid;
+    color: white;
+}
+
+.nonprofit-title {
+    font-size: 20px;
+    font-weight: 590;
+}
+
+.nonprofit-creator {
+    font-size: 15px;
+    margin-left: 9px;
+}
+.nonprofit-descreption {
+    font-size: 15px;
+}
